@@ -1,0 +1,122 @@
+<div id = "container" class = "d-flex justify-content-center">
+
+    <!-- [formControl]="name" -->
+
+    <div id = "form">
+
+        <form action = "">
+
+            <!-- <div id = "content">
+                <label for = "codice_fiscale">Codice Fisacle</label>
+                <input id = "codice_fiscale" type="text" maxlength="16" required = "required">
+            </div> -->
+
+            <div id = "content">
+
+                <label for = "codice_fiscale">Codice Fisacle</label>
+                
+                <mat-form-field appearance="outline">
+                    <!-- <mat-label>Codice fiscale</mat-label> -->
+                    <input matInput placeholder="inserisci il codice fiscale">
+                </mat-form-field>
+
+            </div>
+
+            <div id = "content">
+                <label for = "nome">Nome </label>
+                <input id = "nome" type="text">
+            </div>
+
+            <div id = "content"> 
+                <label for = "cognome">Cognome </label>
+                <input id = "cognome" type="text" >
+            </div>
+
+            <div id = "content">
+                <label for = "email">Email </label>
+                <input id = "email" type="email" >
+            </div>
+
+            <div id = "content">
+                <label for = "DataDiNascita">Data di Nascita </label>
+                <input id = "DataDiNascita" type="date" >
+            </div>
+
+            <div id = "content">
+                <label for = "LuogoDiNascita">Luogo di Nascita </label>
+                <input id = "LuogoDiNascita" type="date" >
+            </div>
+
+            <div id = "content" class = "d-flex">
+
+                <label for = "cittadinanza">Cittadinanza </label>
+
+                <fieldset id = "fieldset" class = "d-flex">
+                    
+                    <input id = "europea" type="radio" value = "europea">
+                    <label for="europea">Europea</label>
+                
+                    <input id = "altro" type="radio" value = "altro">
+                    <label for="altro">Altro</label>
+                    
+                </fieldset>
+
+            </div>
+
+            <div id = "content">
+                <label for = "residenza">Residenza </label>
+                <input id = "residenza" type="text" >
+            </div>
+
+            <div id = "content">
+                <label for = "CAPresidenza">CAP Residenza </label>
+                <input id = "CAPresidenza" type="text" >
+            </div>
+
+            <div id = "content">
+                
+                <label for = "domicilio_residenza">Domicilio e Residenza corrispondono? </label>
+
+                <fieldset id = "fieldset" class = "d-flex">
+
+                    <input id = "domicilio_residenza" type = "checkbox">
+                    <label for="domicilio_residenza">Checkbox</label>
+
+                </fieldset>
+
+            </div>
+
+            <div id = "content">
+                <label for = "cellulare">Recapito Mobile </label>
+                <input id = "cellulare" type="text" >
+            </div>
+
+            <div id = "content">
+                <label for = "telefono">Recapito Fisso</label>
+                <input id = "telefono" type="text" >
+            </div>
+
+            <div id = "content">
+                <label for = "categoriaProtetta">Categoria Protetta </label>
+                <input id = "categoriaProtetta" type="text" >
+            </div>
+
+            <div id = "content">
+                <label for = "condanneCivili">Condanne Civili </label>
+                <input id = "condanneCivili" type="text" >
+            </div>
+
+            <div id = "content">
+                <label for = "scoperta">Come ci hai conosciuto? </label>
+                <input id = "scoperta" type="text" >
+            </div>
+
+            <div>
+                <button type="submit"> Prosegui</button>
+            </div>
+    
+        </form>
+
+    </div>
+
+</div>

@@ -1,0 +1,57 @@
+#container{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+#form{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    width: 900px;
+}
+
+
+
+#content{
+    margin: 10px;
+    border: 2px solid blue;
+    /* text-align: center; */
+    display: flex;
+}
+
+#content label{
+    margin: 10px;   
+    border: 2px solid red;
+    width: 50%;
+    text-align: right;
+}
+
+/* #content input{
+    margin: 10px;
+    flex: 1;
+} */
+
+mat-form-field{
+    border: 2px solid yellow;
+    width: 50%;
+    margin: 10px;
+}
+
+
+
+#fieldset{
+    /* border: 2px solid blue; */
+    margin: 10px;
+}
+
+#fieldset input{
+    margin: 0px;  
+    /* border: 2px solid black; */
+}
+
+#fieldset label{
+    /* border: 2px solid pink; */
+    margin: 0px;
+    width: 100%;
+}
